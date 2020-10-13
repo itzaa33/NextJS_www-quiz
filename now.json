@@ -1,0 +1,23 @@
+{
+    "alias": [
+        "https://www.localhost-quiz.com"
+    ],
+
+    "name": "www-quiz",
+    "public": false,
+    "version": 2,
+    "regions": 
+    [ 
+        "hnd1"
+    ],
+    "builds": [
+        
+        { "src": "package.json", "use": "@now/next", "config": { "maxLambdaSize": "50mb" }},
+        { "src": "proxy-image/index.js", "use": "@now/node", "config": { "maxLambdaSize": "50mb" } }
+        
+    ],
+    "routes":
+    [
+        
+    ]
+}

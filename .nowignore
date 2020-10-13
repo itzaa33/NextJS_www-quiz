@@ -1,0 +1,12 @@
+README.md
+.next
+_next
+
+node_modules
+/node_modules
+/**/node_modules
+node_modules/
+
+.code/
+.vscode/
+.idea/
